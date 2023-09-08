@@ -4,7 +4,7 @@ import pytest
 @pytest.fixture
 def setUp():
     helper.clear()
-    
+
 def test_add(setUp):
     assert len(helper.get_all()) == 0
     helper.add("test")
